@@ -37,7 +37,9 @@ class UserNameTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cellFirst", for: indexPath)
         
-        cell.textLabel?.text = UserNameTableViewController.usersCharacteristics[indexPath.row].name
+        _ = (cell as? UsersCell).map {
+            $0.user = UserNameTableViewController.usersCharacteristics[indexPath.row]
+        }
         
         return cell
     }

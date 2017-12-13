@@ -10,17 +10,6 @@ import UIKit
 
 class UsersCell: UITableViewCell {
   
-    var user: User
-  
-        init(with user: User) {
-           super.init()
-            self.user = user
-         
-        }
-    
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-
+    public var user: User?
 
 }
