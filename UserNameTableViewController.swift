@@ -37,8 +37,8 @@ class UserNameTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cellFirst", for: indexPath)
         
-        _ = (cell as? UsersCell).map {
-            $0.user = UserNameTableViewController.usersCharacteristics[indexPath.row]
+        if let cellUnwrapped = cell as? UserCell {
+            cellUnwrapped.user = UserNameTableViewController.usersCharacteristics[indexPath.row]
         }
         
         return cell
