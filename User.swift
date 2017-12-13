@@ -14,12 +14,4 @@ struct User {
     var age: Int
     var weight: Double
     var height: Double
-    
-    
-//    init(uname: String, uage: Int, uweight: Double, uheight: Double) {
-//        name = uname
-//        age = uage
-//        weight = uweight
-//        height = uheight
-//    }
 }
