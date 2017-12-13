@@ -9,17 +9,17 @@
 import Foundation
 import UIKit
 
-class User {
+struct User {
     var name: String
     var age: Int
     var weight: Double
     var height: Double
     
     
-    init(uname: String, uage: Int, uweight: Double, uheight: Double) {
-        name = uname
-        age = uage
-        weight = uweight
-        height = uheight
-    }
+//    init(uname: String, uage: Int, uweight: Double, uheight: Double) {
+//        name = uname
+//        age = uage
+//        weight = uweight
+//        height = uheight
+//    }
 }

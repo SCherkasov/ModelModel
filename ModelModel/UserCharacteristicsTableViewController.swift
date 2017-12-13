@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SecondTableViewController: UITableViewController {
+class UserCharacteristicsTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
