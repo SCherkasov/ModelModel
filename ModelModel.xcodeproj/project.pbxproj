@@ -11,9 +11,9 @@
 		8A203C811FE0557000421EF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A203C7F1FE0557000421EF6 /* Main.storyboard */; };
 		8A203C831FE0557000421EF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A203C821FE0557000421EF6 /* Assets.xcassets */; };
 		8A203C861FE0557000421EF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A203C841FE0557000421EF6 /* LaunchScreen.storyboard */; };
-		8A203C8E1FE055EC00421EF6 /* UserNameTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A203C8D1FE055EC00421EF6 /* UserNameTableViewController.swift */; };
+		8A203C8E1FE055EC00421EF6 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A203C8D1FE055EC00421EF6 /* UsersViewController.swift */; };
 		8A203C901FE056C600421EF6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A203C8F1FE056C600421EF6 /* User.swift */; };
-		8A250F821FE080A400ED37F9 /* UserCharacteristicsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A250F811FE080A400ED37F9 /* UserCharacteristicsTableViewController.swift */; };
+		8A250F821FE080A400ED37F9 /* UserDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A250F811FE080A400ED37F9 /* UserDetailsController.swift */; };
 		8AE7E2DA1FE1B9F200987232 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE7E2D91FE1B9F200987232 /* UserCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,9 +24,9 @@
 		8A203C821FE0557000421EF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A203C851FE0557000421EF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A203C871FE0557000421EF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8A203C8D1FE055EC00421EF6 /* UserNameTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserNameTableViewController.swift; path = ../UserNameTableViewController.swift; sourceTree = "<group>"; };
+		8A203C8D1FE055EC00421EF6 /* UsersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UsersViewController.swift; path = ../UsersViewController.swift; sourceTree = "<group>"; };
 		8A203C8F1FE056C600421EF6 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = ../User.swift; sourceTree = "<group>"; };
-		8A250F811FE080A400ED37F9 /* UserCharacteristicsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCharacteristicsTableViewController.swift; sourceTree = "<group>"; };
+		8A250F811FE080A400ED37F9 /* UserDetailsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailsController.swift; sourceTree = "<group>"; };
 		8AE7E2D91FE1B9F200987232 /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,8 +62,8 @@
 			children = (
 				8A203C7B1FE0557000421EF6 /* AppDelegate.swift */,
 				8A203C7F1FE0557000421EF6 /* Main.storyboard */,
-				8A203C8D1FE055EC00421EF6 /* UserNameTableViewController.swift */,
-				8A250F811FE080A400ED37F9 /* UserCharacteristicsTableViewController.swift */,
+				8A203C8D1FE055EC00421EF6 /* UsersViewController.swift */,
+				8A250F811FE080A400ED37F9 /* UserDetailsController.swift */,
 				8A203C8F1FE056C600421EF6 /* User.swift */,
 				8AE7E2D91FE1B9F200987232 /* UserCell.swift */,
 				8A203C821FE0557000421EF6 /* Assets.xcassets */,
@@ -146,8 +146,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A203C8E1FE055EC00421EF6 /* UserNameTableViewController.swift in Sources */,
-				8A250F821FE080A400ED37F9 /* UserCharacteristicsTableViewController.swift in Sources */,
+				8A203C8E1FE055EC00421EF6 /* UsersViewController.swift in Sources */,
+				8A250F821FE080A400ED37F9 /* UserDetailsController.swift in Sources */,
 				8A203C7C1FE0557000421EF6 /* AppDelegate.swift in Sources */,
 				8A203C901FE056C600421EF6 /* User.swift in Sources */,
 				8AE7E2DA1FE1B9F200987232 /* UserCell.swift in Sources */,

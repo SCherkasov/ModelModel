@@ -8,7 +8,7 @@
 
 import UIKit
 
-class UserCharacteristicsTableViewController: UITableViewController {
+class UserDetailsViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
