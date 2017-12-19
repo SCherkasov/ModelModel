@@ -9,10 +9,12 @@
 import UIKit
 
 class UserCharacteristicsTableViewController: UITableViewController {
+    
+   
 
     override func viewDidLoad() {
         super.viewDidLoad()
-    
+        
     }
 
     // MARK: - Table view data source
@@ -24,12 +26,16 @@ class UserCharacteristicsTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        return 0
+        return UserNameTableViewController.usersCharacteristics.count
     }
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cellSecond", for: indexPath)
+        
+        if let cellCharacteristicsUnwrapped = cell as? UserCharacteristicsCell {
+            cellCharacteristicsUnwrapped.userChar = UserNameTableViewController.usersCharacteristics[indexPath.row]
+        }
 
         return cell
     }

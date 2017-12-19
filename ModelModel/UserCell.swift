@@ -12,6 +12,8 @@ class UserCell: UITableViewCell {
   
     @IBOutlet weak var nameLabel: UILabel!
     
+    
+    
     public var user: User? {
         didSet {
             if let userUnwrapped = user {
