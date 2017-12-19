@@ -8,9 +8,13 @@
 
 import UIKit
 
+<<<<<<< HEAD:ModelModel/UserCharacteristicsTableViewController.swift
 class UserCharacteristicsTableViewController: UITableViewController {
     
    
+=======
+class UserDetailsViewController: UITableViewController {
+>>>>>>> 248fb379437f78337922c5542a563b41fa915742:ModelModel/UserDetailsController.swift
 
     override func viewDidLoad() {
         super.viewDidLoad()

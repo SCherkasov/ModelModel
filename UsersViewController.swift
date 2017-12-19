@@ -8,16 +8,15 @@
 
 import UIKit
 
-class UserNameTableViewController: UITableViewController {
+class UsersViewController: UITableViewController {
     
-    static var usersCharacteristics =
-        [
-            User(name: "Vasiliy", age: 17, weight: 56, height: 166.8),
-            User(name: "Katya", age: 22, weight: 50.5, height: 170),
-            User(name: "Olga", age: 30, weight: 58.8, height: 160),
-            User(name: "Sveta", age: 10, weight: 35, height: 137)
-        ]
-    
+    static var users = [
+        User(name: "Vasiliy", age: 17, weight: 56, height: 166.8),
+        User(name: "Katya", age: 22, weight: 50.5, height: 170),
+        User(name: "Olga", age: 30, weight: 58.8, height: 160),
+        User(name: "Sveta", age: 10, weight: 35, height: 137)
+    ]
+
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "USERS"
@@ -30,7 +29,7 @@ class UserNameTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return UserNameTableViewController.usersCharacteristics.count
+        return UsersViewController.users.count
     }
     
     
@@ -38,7 +37,7 @@ class UserNameTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cellFirst", for: indexPath)
         
         if let cellUnwrapped = cell as? UserCell {
-            cellUnwrapped.user = UserNameTableViewController.usersCharacteristics[indexPath.row]
+            cellUnwrapped.user = UsersViewController.users[indexPath.row]
         }
         
         return cell
